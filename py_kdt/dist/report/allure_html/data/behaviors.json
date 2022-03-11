@@ -1,0 +1,51 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "XXX公司管理系统",
+    "children" : [ {
+      "name" : "模块名称",
+      "children" : [ {
+        "name" : "模块功能点",
+        "children" : [ {
+          "name" : "登录功能有效等价类",
+          "uid" : "228afc16dc79ad9c",
+          "parentUid" : "5ae20e41505107c42d67241902e5e08c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1646962434515,
+            "stop" : 1646962441002,
+            "duration" : 6487
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'测试步骤': [{'第一步:打开百度': 'Browser.get_url', '网址': 'http://localhost:8181/woniusales'}, {'第二步:输入搜索内容': 'Browser.input', '输入值': 'admin', '页面元素': ['id', 'username']}, {'第三步:点击': 'Browser.click', '页面元素': ['xpath', '/html/body/div[2]/div[1]/div/div[3]/div/div/span']}, {'第四步:截图': 'Browser.get_png'}], '等价类': '有效等价类'}" ]
+        }, {
+          "name" : "登录功能有效等价类",
+          "uid" : "24a23f9727af34d6",
+          "parentUid" : "5ae20e41505107c42d67241902e5e08c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1646962441083,
+            "stop" : 1646962463278,
+            "duration" : 22195
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'测试步骤': [{'第一步:打开百度': 'Browser.get_url', '网址': 'http://www.baidu.com/'}, {'第二步:输入搜索内容': 'Browser.input', '输入值': 'python', '页面元素': ['id', '//*[@id=\"condition\"]']}, {'第三步:点击': 'Browser.click', '页面元素': ['xpath', '/html/body/div[2]/div[1]/div/div[3]/div/div/span']}, {'第四步:截图': 'Browser.get_png'}], '等价类': '有效等价类'}" ]
+        } ],
+        "uid" : "5ae20e41505107c42d67241902e5e08c"
+      } ],
+      "uid" : "04b9e7fe838462a8ccb27fc105662cee"
+    } ],
+    "uid" : "a03dded85550d4ba835b12013a30946e"
+  } ]
+}

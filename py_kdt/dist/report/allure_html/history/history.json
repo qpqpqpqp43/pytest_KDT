@@ -1,0 +1,42 @@
+{
+  "388865122d94b1612e72cba7194340f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "228afc16dc79ad9c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8181/woniusales&c=UTF-8&d=Firefox%20%E6%97%A0%E6%B3%95%E5%BB%BA%E7%AB%8B%E5%88%B0%20localhost%3A8181%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E3%80%82\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nUnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5\ncheckReadyState@chrome://remote/content/marionette/navigate.js:64:24\nonNavigation@chrome://remote/content/marionette/navigate.js:312:39\nemit@resource://gre/modules/EventEmitter.jsm:160:20\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25",
+      "time" : {
+        "start" : 1646962434515,
+        "stop" : 1646962441002,
+        "duration" : 6487
+      }
+    } ]
+  },
+  "c40d6d1b57c9fca32efb075c38c16936" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24a23f9727af34d6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//www.baidu.com/&c=UTF-8&d=%E6%88%91%E4%BB%AC%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E8%87%B3%20www.baidu.com%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nUnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5\ncheckReadyState@chrome://remote/content/marionette/navigate.js:64:24\nonNavigation@chrome://remote/content/marionette/navigate.js:312:39\nemit@resource://gre/modules/EventEmitter.jsm:160:20\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25",
+      "time" : {
+        "start" : 1646962441083,
+        "stop" : 1646962463278,
+        "duration" : 22195
+      }
+    } ]
+  }
+}

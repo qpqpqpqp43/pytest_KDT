@@ -1,0 +1,21 @@
+[ {
+  "uid" : "228afc16dc79ad9c",
+  "name" : "登录功能有效等价类",
+  "time" : {
+    "start" : 1646962434515,
+    "stop" : 1646962441002,
+    "duration" : 6487
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "24a23f9727af34d6",
+  "name" : "登录功能有效等价类",
+  "time" : {
+    "start" : 1646962441083,
+    "stop" : 1646962463278,
+    "duration" : 22195
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

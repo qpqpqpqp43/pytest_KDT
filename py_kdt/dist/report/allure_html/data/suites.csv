@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Mar 11 09:33:54 CST 2022","Fri Mar 11 09:34:01 CST 2022","6487","","test_case","Test_baidu","","","登录功能有效等价类",""
+"broken","Fri Mar 11 09:34:01 CST 2022","Fri Mar 11 09:34:23 CST 2022","22195","","test_case","Test_baidu","","","登录功能有效等价类",""

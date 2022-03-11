@@ -1,0 +1,30 @@
+- 测试步骤:
+  - 第一步:打开百度: Browser.get_url
+    网址: http://localhost:8181/woniusales
+  - 第二步:输入搜索内容: Browser.input
+    输入值: admin
+    页面元素:
+    - id
+    - username
+  - 第三步:点击: Browser.click
+    页面元素:
+    - xpath
+    - /html/body/div[2]/div[1]/div/div[3]/div/div/span
+  - 第四步:截图: Browser.get_png
+  等价类: 有效等价类
+  
+- 测试步骤:
+  - 第一步:打开百度: Browser.get_url
+    网址: http://www.baidu.com/
+  - 第二步:输入搜索内容: Browser.input
+    输入值: python
+    页面元素:
+    - id
+    - //*[@id="condition"]
+  - 第三步:点击: Browser.click
+    页面元素:
+    - xpath
+    - /html/body/div[2]/div[1]/div/div[3]/div/div/span
+  - 第四步:截图: Browser.get_png
+  等价类: 有效等价类
+

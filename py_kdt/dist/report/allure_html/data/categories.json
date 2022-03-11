@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A8181/woniusales&c=UTF-8&d=Firefox%20%E6%97%A0%E6%B3%95%E5%BB%BA%E7%AB%8B%E5%88%B0%20localhost%3A8181%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E3%80%82\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nUnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5\ncheckReadyState@chrome://remote/content/marionette/navigate.js:64:24\nonNavigation@chrome://remote/content/marionette/navigate.js:312:39\nemit@resource://gre/modules/EventEmitter.jsm:160:20\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25",
+      "children" : [ {
+        "name" : "登录功能有效等价类",
+        "uid" : "228afc16dc79ad9c",
+        "parentUid" : "6835798b2bd6f3db1b23b49b806df3b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646962434515,
+          "stop" : 1646962441002,
+          "duration" : 6487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'测试步骤': [{'第一步:打开百度': 'Browser.get_url', '网址': 'http://localhost:8181/woniusales'}, {'第二步:输入搜索内容': 'Browser.input', '输入值': 'admin', '页面元素': ['id', 'username']}, {'第三步:点击': 'Browser.click', '页面元素': ['xpath', '/html/body/div[2]/div[1]/div/div[3]/div/div/span']}, {'第四步:截图': 'Browser.get_png'}], '等价类': '有效等价类'}" ]
+      } ],
+      "uid" : "6835798b2bd6f3db1b23b49b806df3b6"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//www.baidu.com/&c=UTF-8&d=%E6%88%91%E4%BB%AC%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E8%87%B3%20www.baidu.com%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nUnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5\ncheckReadyState@chrome://remote/content/marionette/navigate.js:64:24\nonNavigation@chrome://remote/content/marionette/navigate.js:312:39\nemit@resource://gre/modules/EventEmitter.jsm:160:20\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25",
+      "children" : [ {
+        "name" : "登录功能有效等价类",
+        "uid" : "24a23f9727af34d6",
+        "parentUid" : "c1b1ff26396604365e97abc65fbb38b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646962441083,
+          "stop" : 1646962463278,
+          "duration" : 22195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'测试步骤': [{'第一步:打开百度': 'Browser.get_url', '网址': 'http://www.baidu.com/'}, {'第二步:输入搜索内容': 'Browser.input', '输入值': 'python', '页面元素': ['id', '//*[@id=\"condition\"]']}, {'第三步:点击': 'Browser.click', '页面元素': ['xpath', '/html/body/div[2]/div[1]/div/div[3]/div/div/span']}, {'第四步:截图': 'Browser.get_png'}], '等价类': '有效等价类'}" ]
+      } ],
+      "uid" : "c1b1ff26396604365e97abc65fbb38b5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
